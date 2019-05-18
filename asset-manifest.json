@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/d3-pie-hue/static/css/main.113fec22.chunk.css",
+    "main.js": "/d3-pie-hue/static/js/main.8020a42f.chunk.js",
+    "main.js.map": "/d3-pie-hue/static/js/main.8020a42f.chunk.js.map",
+    "runtime~main.js": "/d3-pie-hue/static/js/runtime~main.f26c8290.js",
+    "runtime~main.js.map": "/d3-pie-hue/static/js/runtime~main.f26c8290.js.map",
+    "static/js/2.1e3ad570.chunk.js": "/d3-pie-hue/static/js/2.1e3ad570.chunk.js",
+    "static/js/2.1e3ad570.chunk.js.map": "/d3-pie-hue/static/js/2.1e3ad570.chunk.js.map",
+    "index.html": "/d3-pie-hue/index.html",
+    "precache-manifest.f27a62251120bc3f87112f6d22c5c6dc.js": "/d3-pie-hue/precache-manifest.f27a62251120bc3f87112f6d22c5c6dc.js",
+    "service-worker.js": "/d3-pie-hue/service-worker.js",
+    "static/css/main.113fec22.chunk.css.map": "/d3-pie-hue/static/css/main.113fec22.chunk.css.map"
+  }
+}
