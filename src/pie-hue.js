@@ -12,8 +12,6 @@ class PieHue {
         this.gap = 0.03
         this.inner = 0.6
         this.outer = 1.0
-        this.iterations = 100
-        this.count = 0
 
         this.data = arrayShuffle(data)
         this.categories = this.createCategories(this.gap, this.data)
@@ -152,12 +150,6 @@ class PieHue {
     }
 
     draw ({ width, showLabels = true }) {
-        console.log('draw')
-        if (this.count >= this.iterations) {
-            return
-        } else {
-            this.count++
-        }
 
         let R = 0.5 * width
         let cx = R

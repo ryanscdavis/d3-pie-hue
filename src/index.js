@@ -1,11 +1,6 @@
 
 import PieHue from './pie-hue.js'
 
-// let element = document.createElement('svg')
-// element.setAttribute('id', 'plot')
-// document.body.prepend(element)
-
-
 let data = []
 
 for (let i=0; i<200; i++)
@@ -20,5 +15,19 @@ for (let i=0; i<300; i++)
 for (let i=0; i<10; i++)
   data.push({ category: 'B', hue: 1 })
 
+
+
 let plot = new PieHue('plot', data)
-plot.draw({ width: 600 , showLabels: false})
+let count = 0
+let limit = 100
+let interval = setInterval(() => {
+    count++
+    if (count === limit) {
+        clearInterval(interval)
+        return
+    }
+    plot.force()
+    plot.draw({ width: 600 , showLabels: false})
+}, 50)
+
+
