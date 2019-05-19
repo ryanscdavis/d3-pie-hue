@@ -27,7 +27,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'd3'
+            template: './index.html'
         }),
         new webpack.HotModuleReplacementPlugin()
     ],
