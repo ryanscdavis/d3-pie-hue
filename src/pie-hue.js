@@ -168,7 +168,7 @@ class PieHue {
             .attr('class', d => 'hue-' + String(d.hue))
 
         d3.select(this.id).selectAll('circle').data(this.data)
-            .transition()
+            .transition().duration(50)
             .attr('cx', d => d.x * R )
             .attr('cy', d => d.y * R )
 
