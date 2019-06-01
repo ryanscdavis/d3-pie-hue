@@ -6,10 +6,10 @@ const webpack = require('webpack')
 
 module.exports = {
 
-    mode: 'production',
+    mode: 'development',
 
     entry: {
-        app: './src/index.js'
+        app: './src/index-titanic.js'
     },
 
     devtool: 'inline-source-map',

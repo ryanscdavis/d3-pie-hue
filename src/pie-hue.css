@@ -1,8 +1,10 @@
 
 .hue-0 {
-    fill: rgb(41, 128, 185);
+    fill: rgb(52, 73, 94);
 }
 
 .hue-1 {
-    fill: rgb(231, 76, 60);
+    stroke: rgb(52, 73, 94);
+    stroke-width: 2;
+    fill: none;
 }

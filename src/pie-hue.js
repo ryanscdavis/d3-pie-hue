@@ -182,8 +182,9 @@ class PieHue {
             let arcs = Object.entries(this.categories)
 
             // add labels
-            d3.select(this.id).selectAll('text.labels').data(arcs).enter()
+            d3.select(this.id).selectAll('text.label').data(arcs).enter()
                 .append('text')
+                .attr('class', 'label')
                 .each(function (d) {
                     let centroid = drawArc.centroid(d)
                     d3.select(this)
@@ -192,6 +193,7 @@ class PieHue {
                         .attr('dy', '0.33em')
                         .text(d[0])
                 })
+                .attr('text-anchor', 'middle')
         }
 
     }
