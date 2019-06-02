@@ -10,7 +10,7 @@ class PieHue {
         this.id = '#' + id
         this.rad = 0.017
         this.gap = 0.03
-        this.inner = 0.6
+        this.inner = 0.67
         this.outer = 1.0
 
         this.data = arrayShuffle(data)
